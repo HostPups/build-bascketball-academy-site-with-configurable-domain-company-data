@@ -89,6 +89,15 @@ return (
                 </ul>
               </div>
               <div>
+                <h4 className="footer-title">معلومات قانونية</h4>
+                <ul className="footer-links">
+                  <li><Link href="/terms-of-use">شروط الاستخدام</Link></li>
+                  <li><Link href="/privacy-policy">سياسة الخصوصية</Link></li>
+                  <li><Link href="/disclaimer">إخلاء مسؤولية</Link></li>
+                  <li><Link href="/cookie-policy">سياسة ملفات تعريف الارتباط</Link></li>
+                </ul>
+              </div>
+              <div>
                 <h4 className="footer-title">تواصل معنا</h4>
                 <ul className="footer-links">
                   <li>{companyConfig.company.phone}</li>
