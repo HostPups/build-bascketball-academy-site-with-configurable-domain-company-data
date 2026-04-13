@@ -7,9 +7,9 @@ export default function CoachesPage() {
     <>
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-hero-title">Our Coaching Team</h1>
+          <h1 className="page-hero-title">فريق المدربين</h1>
           <p className="page-hero-subtitle">
-            Learn from the best coaches in Egypt and the Middle East - experts in developing players at all levels
+            تعلم من أفضل المدربين في مصر والشرق الأوسط - خبراء في تطوير اللاعبين على جميع المستويات
           </p>
         </div>
       </section>
@@ -38,31 +38,31 @@ export default function CoachesPage() {
       <section className="section" style={{ background: 'var(--bg-surface)' }}>
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-            <h2 className="section-title">Coaching Philosophy</h2>
+            <h2 className="section-title">فلسفة التدريب</h2>
             <p className="section-subtitle">
-              Our coaching approach combines international best practices with understanding of local culture and player development needs.
+              يجمع نهجنا في التدريب بين أفضل الممارسات الدولية مع فهم الثقافة المحلية واحتياجات تطوير اللاعبين
             </p>
             
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '30px', marginTop: '50px' }}>
               <div style={{ padding: '30px', background: 'var(--bg-dark)', borderRadius: '8px', textAlign: 'center' }}>
                 <div style={{ fontSize: '48px', marginBottom: '16px' }}>🎯</div>
-                <h3 style={{ fontSize: '20px', color: 'var(--text-primary)', marginBottom: '12px' }}>Individual Focus</h3>
+                <h3 style={{ fontSize: '20px', color: 'var(--text-primary)', marginBottom: '12px' }}>التركيز الفردي</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>
-                  Every player is unique. We assess each player's strengths and weaknesses to create a personalized development plan that maximizes their potential.
+                  كل لاعب فريد من نوعه. نقوم بتقييم نقاط القوة والضعف لدى كل لاعب لإنشاء خطة تطوير شخصية تزيد من إمكاناته.
                 </p>
               </div>
               <div style={{ padding: '30px', background: 'var(--bg-dark)', borderRadius: '8px', textAlign: 'center' }}>
                 <div style={{ fontSize: '48px', marginBottom: '16px' }}>📈</div>
-                <h3 style={{ fontSize: '20px', color: 'var(--text-primary)', marginBottom: '12px' }}>Progressive Training</h3>
+                <h3 style={{ fontSize: '20px', color: 'var(--text-primary)', marginBottom: '12px' }}>التدريب المتدرج</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>
-                  Our training programs evolve with each player. We gradually increase intensity and complexity as players develop new skills and build confidence.
+                  برامجنا التدريبية تتطور مع كل لاعب. نزيد الشدة والتعقيد تدريجياً مع تطور اللاعبين واكتسابهم مهارات جديدة.
                 </p>
               </div>
               <div style={{ padding: '30px', background: 'var(--bg-dark)', borderRadius: '8px', textAlign: 'center' }}>
                 <div style={{ fontSize: '48px', marginBottom: '16px' }}>🧠</div>
-                <h3 style={{ fontSize: '20px', color: 'var(--text-primary)', marginBottom: '12px' }}>Mental Development</h3>
+                <h3 style={{ fontSize: '20px', color: 'var(--text-primary)', marginBottom: '12px' }}>التطوير العقلي</h3>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>
-                  Basketball is as much a mental game as physical. We teach players to stay focused, handle pressure, and build confidence.
+                  كرة السلة ليست رياضة جسدية فحسب بل عقلية أيضاً. نعلم اللاعبين على التركيز والتعامل مع الضغط وبناء الثقة بالنفس.
                 </p>
               </div>
             </div>
@@ -72,24 +72,24 @@ export default function CoachesPage() {
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Coach Credentials</h2>
+          <h2 className="section-title">مؤهلات المدربين</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '40px', marginTop: '40px' }}>
             <div style={{ padding: '30px', background: 'var(--bg-surface)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-              <h3 style={{ fontSize: '22px', color: 'var(--text-primary)', marginBottom: '16px' }}>International Certifications</h3>
+              <h3 style={{ fontSize: '22px', color: 'var(--text-primary)', marginBottom: '16px' }}>الشهادات الدولية</h3>
               <ul style={{ color: 'var(--text-secondary)', lineHeight: '2', listStyle: 'none' }}>
-                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> FIBA Certified Coaches</li>
-                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> USA Basketball Licensed</li>
-                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> European Coaching Badges</li>
-                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> Sports Science Degrees</li>
+                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> مدربون معتمدون من فيبا</li>
+                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> مرخصون من USA Basketball</li>
+                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> شارات التدريب الأوروبية</li>
+                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span>Degrees في علوم الرياضية</li>
               </ul>
             </div>
             <div style={{ padding: '30px', background: 'var(--bg-surface)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
-              <h3 style={{ fontSize: '22px', color: 'var(--text-primary)', marginBottom: '16px' }}>Playing Experience</h3>
+              <h3 style={{ fontSize: '22px', color: 'var(--text-primary)', marginBottom: '16px' }}>خبرة اللعب</h3>
               <ul style={{ color: 'var(--text-secondary)', lineHeight: '2', listStyle: 'none' }}>
-                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> Professional Leagues</li>
-                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> National Teams</li>
-                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> International Competitions</li>
-                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> College Basketball</li>
+                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> دوريات محترفة</li>
+                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> المنتخبات الوطنية</li>
+                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> مسابقات دولية</li>
+                <li style={{ paddingRight: '24px', position: 'relative' }}><span style={{ position: 'absolute', right: 0, color: 'var(--primary)' }}>✓</span> كرة السلة الجامعية</li>
               </ul>
             </div>
           </div>
@@ -98,12 +98,12 @@ export default function CoachesPage() {
 
       <section className="section" style={{ background: 'var(--secondary)', padding: '60px 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ fontSize: '36px', color: 'var(--text-primary)', marginBottom: '20px' }}>Join Our Coaching Team</h2>
+          <h2 style={{ fontSize: '36px', color: 'var(--text-primary)', marginBottom: '20px' }}>انضم لفريق المدربين</h2>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '30px', maxWidth: '600px', margin: '0 auto 30px' }}>
-            Are you a certified basketball coach? Join our team and be part of developing the next generation of Egyptian basketball players.
+            هل أنت مدرب كرة سلة معتمد؟ انضم لفريقنا وكن جزءاً من تطوير جيل جديد من اللاعبين المصريين.
           </p>
           <a href="/contact" className="btn btn-primary">
-            Contact Us
+            تواصل معنا
           </a>
         </div>
       </section>

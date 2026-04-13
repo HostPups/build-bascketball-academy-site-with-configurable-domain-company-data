@@ -68,12 +68,12 @@ export interface CompanyConfig {
 export const companyConfig: CompanyConfig = {
   domain: "cairocourts.com",
   company: {
-    name: "Cairo Courts Basketball Academy",
-    tagline: "Where Champions Are Made",
+    name: "أكاديمية القاهرة",
+    tagline: "حيث يصنع الأبطال",
     logo: "/logo.svg",
     email: "info@cairocourts.com",
     phone: "+20 10 1234 5678",
-    address: "Sheikh Zayed, Cairo, Egypt",
+    address: "الشيخ زايد، القاهرة، مصر",
     social: {
       facebook: "https://facebook.com/cairocourts",
       instagram: "https://instagram.com/cairocourts",
@@ -83,103 +83,103 @@ export const companyConfig: CompanyConfig = {
   programs: [
     {
       id: "1",
-      title: "Youth Development",
-      description: "Building fundamentals for young athletes ages 6-12.",
-      price: "1500 EGP/month",
-      duration: "4 weeks",
-      ageGroup: "Ages 6-12",
+      title: "برنامج الناشئين",
+      description: "بناء الأساسيات للرياضيين الصغار من عمر 6-12 سنة.",
+      price: "1500 جم/月",
+      duration: "4 أسابيع",
+      ageGroup: "أعمار 6-12",
       image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&h=400&fit=crop",
-      features: ["Basic Skills", "Fun Drills", "Team Games"],
+      features: ["المهارات الأساسية", "تمارين ممتعة", "ألعاب جماعية"],
     },
     {
       id: "2",
-      title: "Elite Training",
-      description: "Advanced training for serious athletes ages 13-18.",
-      price: "2500 EGP/month",
-      duration: "4 weeks",
-      ageGroup: "Ages 13-18",
+      title: "التدريب المتقدم",
+      description: "تدريب متقدم للرياضيين الجاديين من عمر 13-18 سنة.",
+      price: "2500 جم/月",
+      duration: "4 أسابيع",
+      ageGroup: "أعمار 13-18",
       image: "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=600&h=400&fit=crop",
-      features: ["Advanced Skills", "Conditioning", "Video Analysis"],
+      features: ["مهارات متقدمة", "لياقة بدنية", "تحليل الفيديو"],
     },
     {
       id: "3",
-      title: "Private Coaching",
-      description: "One-on-one personalized training.",
-      price: "300 EGP/session",
-      duration: "1 hour",
-      ageGroup: "All Ages",
+      title: "تدريب فردي",
+      description: "تدريب شخصي واحد على واحد.",
+      price: "300 جم/جلسة",
+      duration: "ساعة واحدة",
+      ageGroup: "جميع الأعمار",
       image: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=600&h=400&fit=crop",
-      features: ["1-on-1 Training", "Custom Plan"],
+      features: ["تدريب فردي", "خطة مخصصة"],
     },
     {
       id: "4",
-      title: "Summer Camp",
-      description: "Intensive summer camp for all levels.",
-      price: "4500 EGP",
-      duration: "2 weeks",
-      ageGroup: "Ages 8-18",
+      title: "معسكر صيفي",
+      description: "معسكر صيفي مكثف لجميع المستويات.",
+      price: "4500 جم",
+      duration: "أسبوعان",
+      ageGroup: "أعمار 8-18",
       image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop",
-      features: ["Intensive Training", "Tournaments", "Certificate"],
+      features: ["تدريب مكثف", "بطولات", "شهادة"],
     },
   ],
   coaches: [
     {
       id: "1",
-      name: "Ahmed Mohamed",
-      title: "Head Coach",
-      specialization: "Offensive Strategy",
-      experience: "15+ years",
+      name: "أحمد محمد",
+      title: "المدرب الرئيسي",
+      specialization: "استراتيجية الهجوم",
+      experience: "15+ سنة",
       image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&h=400&fit=crop",
-      bio: "Former professional player",
+      bio: "لاعب محترف سابق",
     },
     {
       id: "2",
-      name: "Karim Youssef",
-      title: "Assistant Coach",
-      specialization: "Defense & Conditioning",
-      experience: "10+ years",
+      name: "كريم يوسف",
+      title: "مدرب مساعد",
+      specialization: "الدفاع واللياقة",
+      experience: "10+ سنة",
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-      bio: "Certified strength specialist",
+      bio: "متخصص لياقة معتمد",
     },
     {
       id: "3",
-      name: "Omar Said",
-      title: "Skills Coach",
-      specialization: "Shooting",
-      experience: "8+ years",
+      name: "عمر سعيد",
+      title: "مدرب مهارات",
+      specialization: "التصويب",
+      experience: "8+ سنة",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
-      bio: "Shot specialist",
+      bio: "متخصص تصويب",
     },
     {
       id: "4",
-      name: "Mona Ahmed",
-      title: "Youth Coach",
-      specialization: "Fundamentals",
-      experience: "12+ years",
+      name: "منى أحمد",
+      title: "مدربة ناشئين",
+      specialization: "الأساسيات",
+      experience: "12+ سنة",
       image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-      bio: "Youth specialist",
+      bio: "متخصصة في ناشئين",
     },
   ],
   testimonials: [
     {
       id: "1",
-      name: "Mohamed Adel",
-      role: "Parent",
-      content: "My son has improved tremendously since joining.",
+      name: "محمد عادل",
+      role: "والد",
+      content: "ابني تحسن بشكل كبير منذ انضمامه للأكاديمية.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
     },
     {
       id: "2",
-      name: "Nour El-Din",
-      role: "Student",
-      content: "Helped me get recruited to college!",
+      name: "نور الدين",
+      role: "طالب",
+      content: "ساعدني على الالتحاق بالكلية!",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
     },
     {
       id: "3",
-      name: "Hala Mohamed",
-      role: "Parent",
-      content: "Best basketball academy in Egypt!",
+      name: "هالة محمد",
+      role: "والدة",
+      content: "أفضل أكاديمية كرة سلة في مصر!",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
     },
   ],
@@ -195,65 +195,65 @@ export const companyConfig: CompanyConfig = {
     {
       id: "1",
       slug: "5-tips-for-better-shooting",
-      title: "5 Tips for Better Shooting",
-      excerpt: "Improve your shooting technique with these proven tips.",
-      content: `<p>Shooting is one of the most important skills in basketball.</p>
-      <h2>1. Follow Through</h2>
-      <p>Make sure to snap your wrist toward the basket.</p>
-      <h2>2. Keep Eyes on Target</h2>
-      <p>Pick a specific spot on the rim and focus on it.</p>
-      <h2>3. Use Your Legs</h2>
-      <p>Power comes from your legs, not just your arms.</p>
-      <h2>4. Practice Daily</h2>
-      <p>The key is repetition. Aim for 100 made shots per day.</p>
-      <h2>5. Stay Confident</h2>
-      <p>Confidence is crucial. Stay positive.</p>`,
+      title: "5 نصائح لتحسين التصويب",
+      excerpt: "حسّن تقنية التصويب مع هذه النصائح المدروسة.",
+      content: `<p>التصويب من أهم المهارات في كرة السلة.</p>
+      <h2>1. المتابعة</h2>
+      <p>تأكد من لف معصمك نحو السلة.</p>
+      <h2>2. الحفاظ على العينين على الهدف</h2>
+      <p>اختر نقطة محددة على الحلقة وركز عليها.</p>
+      <h2>3. استخدام الساقين</h2>
+      <p>القوة تأتي من ساقيك.</p>
+      <h2>4. الممارسة اليومية</h2>
+      <p>المفتاح هو التكرار.</p>
+      <h2>5. الثقة بالنفس</h2>
+      <p>الثقة ضرورية.</p>`,
       image: "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=800&h=400&fit=crop",
-      author: "Ahmed Mohamed",
-      date: "April 10, 2026",
-      category: "Training"
+      author: "أحمد محمد",
+      date: "10 أبريل 2026",
+      category: "تدريب"
     },
     {
       id: "2",
       slug: "youth-athletics-why-start-early",
-      title: "Why Kids Should Start Basketball Early",
-      excerpt: "Discover the benefits of starting at a young age.",
-      content: `<p>Starting basketball at a young age offers numerous benefits.</p>
-      <h2>1. Physical Development</h2>
-      <p>Develops coordination, balance, and motor skills.</p>
-      <h2>2. Teamwork</h2>
-      <p>Teaches children how to work with others.</p>
-      <h2>3. Discipline</h2>
-      <p>Instills discipline and focus.</p>
-      <h2>4. Confidence</h2>
-      <p>As children improve, their confidence grows.</p>
-      <h2>5. Love for Sports</h2>
-      <p>Creates foundation for lifelong fitness.</p>`,
+      title: "لماذا يجب أن يبدأ الأطفال مبكراً",
+      excerpt: "اكتشف فوائد البداية في سن مبكر.",
+      content: `<p>البدء في كرة السلة في سن مبكر يوفر فوائد عديدة.</p>
+      <h2>1. التنمية الجسدية</h2>
+      <p>تطور التنسيق والتوازن.</p>
+      <h2>2. العمل الجماعي</h2>
+      <p>تعلم كيفية العمل مع الآخرين.</p>
+      <h2>3. الانضباط</h2>
+      <p>تزرع الانضباط والتركيز.</p>
+      <h2>4. الثقة بالنفس</h2>
+      <p>تنمو مع التحسن.</p>
+      <h2>5. حب الرياضية</h2>
+      <p>خلق أساس لحياة نشطة.</p>`,
       image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&h=400&fit=crop",
-      author: "Mona Ahmed",
-      date: "April 8, 2026",
-      category: "Youth"
+      author: "منى أحمد",
+      date: "8 أبريل 2026",
+      category: "شباب"
     },
     {
       id: "3",
       slug: "nutrition-for-athletes",
-      title: "Proper Nutrition for Athletes",
-      excerpt: "Learn what foods fuel performance and recovery.",
-      content: `<p>Proper nutrition is essential for athletes.</p>
-      <h2>1. Carbohydrates</h2>
-      <p>Primary fuel source. Include whole grains and fruits.</p>
-      <h2>2. Protein</h2>
-      <p>Helps repair and build muscle tissue.</p>
-      <h2>3. Hydration</h2>
-      <p>Drink water before, during, and after activities.</p>
-      <h2>4. Pre-Game Nutrition</h2>
-      <p>Eat balanced meal 2-3 hours before games.</p>
-      <h2>5. Post-Training Recovery</h2>
-      <p>Consume protein and carbs within 30-60 minutes.</p>`,
+      title: "التغذية السليمة للرياضيين",
+      excerpt: "تعلم التغذية التي تحسن الأداء.",
+      content: `<p>التغذية السليمة ضرورية للرياضيين.</p>
+      <h2>1. الكربوهيدرات</h2>
+      <p>مصدر الطاقة الرئيسي.</p>
+      <h2>2. البروتين</h2>
+      <p>لبناء العضلات.</p>
+      <h2>3. الترطيب</h2>
+      <p>الماء أساسي.</p>
+      <h2>4. قبل التدريب</h2>
+      <p>وجبة متتوازنة.</p>
+      <h2>5. بعد التدريب</h2>
+      <p>بروتين وكربوهيدرات.</p>`,
       image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop",
-      author: "Karim Youssef",
-      date: "April 5, 2026",
-      category: "Nutrition"
+      author: "كريم يوسف",
+      date: "5 أبريل 2026",
+      category: "تغذية"
     }
   ],
 };

@@ -7,9 +7,9 @@ export default function GalleryPage() {
     <>
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-hero-title">Training Gallery</h1>
+          <h1 className="page-hero-title">معرض الصور</h1>
           <p className="page-hero-subtitle">
-            Explore moments of training, competitions, and achievements at Cairo Courts Academy
+            استكشف لحظات التدريب والبطولات والإنجازات في أكاديمية القاهرة
           </p>
         </div>
       </section>
@@ -28,31 +28,31 @@ export default function GalleryPage() {
 
       <section className="section" style={{ background: 'var(--bg-surface)' }}>
         <div className="container">
-          <h2 className="section-title">Academy Activities</h2>
+          <h2 className="section-title">أنشطة الأكاديمية</h2>
           <p className="section-subtitle">
-            We organize various activities throughout the year to develop well-rounded athletes
+            ننظم various activities طوال العام لتطوير رياضيين متكاملين
           </p>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px', marginTop: '40px' }}>
             <div style={{ padding: '24px', background: 'var(--bg-dark)', borderRadius: '8px', textAlign: 'center' }}>
               <div style={{ fontSize: '40px', marginBottom: '12px' }}>🏀</div>
-              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '8px' }}>Regular Training</h4>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>Daily sessions for all skill levels</p>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '8px' }}>التدريب المنتظم</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>جلسات يومية لجميع المستويات</p>
             </div>
             <div style={{ padding: '24px', background: 'var(--bg-dark)', borderRadius: '8px', textAlign: 'center' }}>
               <div style={{ fontSize: '40px', marginBottom: '12px' }}>🏆</div>
-              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '8px' }}>Tournaments</h4>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>Monthly inter-academy competitions</p>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '8px' }}>البطولات</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>مسابقات شهرية بين الأكاديميات</p>
             </div>
             <div style={{ padding: '24px', background: 'var(--bg-dark)', borderRadius: '8px', textAlign: 'center' }}>
               <div style={{ fontSize: '40px', marginBottom: '12px' }}>🎪</div>
-              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '8px' }}>Summer Camps</h4>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>Intensive holiday programs</p>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '8px' }}>معسكرات الصيف</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>برامج مكثفة في العطلات</p>
             </div>
             <div style={{ padding: '24px', background: 'var(--bg-dark)', borderRadius: '8px', textAlign: 'center' }}>
               <div style={{ fontSize: '40px', marginBottom: '12px' }}>🎓</div>
-              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '8px' }}>Clinic Days</h4>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>Specialized workshops</p>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '8px' }}>أيام العيادات</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '13px' }}>ورش متخصصة</p>
             </div>
           </div>
         </div>
@@ -61,12 +61,12 @@ export default function GalleryPage() {
       <section className="section">
         <div className="container">
           <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-            <h2 className="section-title">Our Training Philosophy</h2>
+            <h2 className="section-title">فلسفتنا في التدريب</h2>
             <p style={{ color: 'var(--text-secondary)', marginTop: '20px', lineHeight: '1.9', fontSize: '16px' }}>
-              At Cairo Courts Academy, we believe in developing the complete athlete. Our training sessions go beyond just teaching basketball skills - we focus on building character, teamwork, and life skills through sports. Every session is designed to challenge players physically while nurturing their mental growth and love for the game.
+              في أكاديمية القاهرة، نؤمن بتطوير الرياضي المتكامل. جلساتنا تتجاوز مجرد تعليم مهارات كرة السلة - نركز على بناء الشخصية وروح الفريق المهارات الحياة من خلال الرياضية. كل جلسة مصممة لتحدي اللاعبين جسدياً مع تنمية growth العقبيتهم وحبهم للعبة.
             </p>
             <p style={{ color: 'var(--text-secondary)', marginTop: '20px', lineHeight: '1.9', fontSize: '16px' }}>
-              Our state-of-the-art facilities provide the perfect environment for learning and improvement. From beginner clinics to advanced competitive training, every player finds their place at Cairo Courts. We take pride in seeing our players grow - not just as athletes, but as individuals who carry the lessons learned on the court into their everyday lives.
+              توفر مرافقنا ذات المستوى الأول البيئة المثالية للتعلم والتحسن. من clinic المبتدئين إلى التدريب التنافسي المتقدم، يجد كل لاعب مكانه في القاهرة. نفخر برؤية لاعبينا ينمون - ليس فقط كلاعبي رياضية، بل كأفراد يحملون الدروس المستفادة في الملعب إلى حياتهم اليومية.
             </p>
           </div>
         </div>
@@ -75,13 +75,13 @@ export default function GalleryPage() {
       <section className="section" style={{ background: 'var(--primary)' }}>
         <div className="container" style={{ textAlign: 'center' }}>
           <h2 style={{ fontSize: '40px', color: 'white', marginBottom: '16px' }}>
-            Are You Ready to Start?
+            هل أنت مستعد للبدء؟
           </h2>
           <p style={{ fontSize: '18px', color: 'rgba(255,255,255,0.9)', marginBottom: '30px' }}>
-            Sign up now and get a FREE trial session to experience our training firsthand
+            سجل الآن واحصل على جلسة تجريبية مجانية لتجربة تدريبنا firsthand
           </p>
           <a href="/contact" className="btn" style={{ background: 'white', color: 'var(--primary)' }}>
-            Enroll Now
+            سجل الآن
           </a>
         </div>
       </section>

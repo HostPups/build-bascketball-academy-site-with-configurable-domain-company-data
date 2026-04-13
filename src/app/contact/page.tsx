@@ -7,9 +7,9 @@ export default function ContactPage() {
     <>
       <section className="page-hero">
         <div className="container">
-          <h1 className="page-hero-title">Contact Us</h1>
+          <h1 className="page-hero-title">اتصل بنا</h1>
           <p className="page-hero-subtitle">
-            Have questions? We are here to help. Contact us today and start your basketball journey
+            لديك أسئلة؟ نحن هنا لمساعدتك. تواصل معنا اليوم وابدأ رحلتك في عالم كرة السلة
           </p>
         </div>
       </section>
@@ -19,40 +19,40 @@ export default function ContactPage() {
           <div className="contact-grid">
             <form className="contact-form">
               <div className="form-group">
-                <label>Full Name</label>
-                <input type="text" placeholder="Enter your full name" required />
+                <label>الاسم الكامل</label>
+                <input type="text" placeholder="أدخل اسمك الكامل" required />
               </div>
               <div className="form-group">
-                <label>Email Address</label>
-                <input type="email" placeholder="email@example.com" required />
+                <label>البريد الإلكتروني</label>
+                <input type="email" placeholder="البريد@example.com" required />
               </div>
               <div className="form-group">
-                <label>Phone Number</label>
+                <label>رقم الهاتف</label>
                 <input type="tel" placeholder="+20 10 xxxx xxxx" />
               </div>
               <div className="form-group">
-                <label>Program Interested In</label>
+                <label>البرنامج المهتم به</label>
                 <select style={{ width: '100%', padding: '14px 18px', background: 'var(--bg-dark)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '4px', color: 'var(--text-primary)', fontSize: '16px' }}>
-                  <option value="">Select a Program</option>
-                  <option value="youth">Youth Development</option>
-                  <option value="elite">Elite Training</option>
-                  <option value="private">Private Coaching</option>
-                  <option value="summer">Summer Camp</option>
+                  <option value="">اختر برنامج</option>
+                  <option value="youth">برنامج الناشئين</option>
+                  <option value="elite">التدريب المتقدم</option>
+                  <option value="private">التدريب الفردي</option>
+                  <option value="summer">معسكر الصيف</option>
                 </select>
               </div>
               <div className="form-group">
-                <label>Message</label>
-                <textarea placeholder="Tell us about your goals and training needs..." required></textarea>
+                <label>الرسالة</label>
+                <textarea placeholder="أخبرنا عن أهدافك واحتياجاتك التدريبية..." required></textarea>
               </div>
               <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>
-                Send Message
+                إرسال الرسالة
               </button>
             </form>
 
             <div className="contact-info">
-              <h3>Contact Information</h3>
+              <h3>معلومات الاتصال</h3>
               <p style={{ color: 'var(--text-secondary)', marginBottom: '30px' }}>
-                We are available to answer all your questions. You can visit our academy location, contact us by phone, or email us.
+                نحن متاحون للإجابة على جميع استفساراتك. يمكنك زيارة مقر الأكاديمية أو التواصل هاتفياً أو عبر البريد الإلكتروني.
               </p>
               
               <div className="contact-item">
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
                 </div>
                 <div className="contact-details">
-                  <strong>Address</strong>
+                  <strong>العنوان</strong>
                   {company.address}
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                   <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                 </div>
                 <div className="contact-details">
-                  <strong>Email</strong>
+                  <strong>البريد الإلكتروني</strong>
                   {company.email}
                 </div>
               </div>
@@ -80,25 +80,25 @@ export default function ContactPage() {
                   <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
                 </div>
                 <div className="contact-details">
-                  <strong>Phone</strong>
+                  <strong>الهاتف</strong>
                   {company.phone}
                 </div>
               </div>
 
               <div style={{ marginTop: '40px', padding: '30px', background: 'var(--bg-surface)', borderRadius: '8px' }}>
-                <h4 style={{ color: 'var(--text-primary)', marginBottom: '16px', fontSize: '18px' }}>Business Hours</h4>
+                <h4 style={{ color: 'var(--text-primary)', marginBottom: '16px', fontSize: '18px' }}>مواعيد العمل</h4>
                 <div style={{ display: 'grid', gap: '12px', color: 'var(--text-secondary)', fontSize: '14px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <span>Saturday - Thursday</span>
-                    <span style={{ color: 'var(--primary)' }}>Morning: 9 AM - 1 PM</span>
+                    <span>السبت - الخميس</span>
+                    <span style={{ color: 'var(--primary)' }}>صباحاً: 9 صباحاً - 1 ظهراً</span>
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <span>Saturday - Thursday</span>
-                    <span style={{ color: 'var(--primary)' }}>Evening: 4 PM - 10 PM</span>
+                    <span>السبت - الخميس</span>
+                    <span style={{ color: 'var(--primary)' }}>مساءً: 4 مساءً - 10 مساءً</span>
                   </div>
                   <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <span>Friday</span>
-                    <span style={{ color: 'var(--text-secondary)' }}>Closed</span>
+                    <span>الجمعة</span>
+                    <span style={{ color: 'var(--text-secondary)' }}>مغلق</span>
                   </div>
                 </div>
               </div>
@@ -127,23 +127,23 @@ export default function ContactPage() {
 
       <section className="section" style={{ background: 'var(--bg-surface)' }}>
         <div className="container">
-          <h2 className="section-title">Frequently Asked Questions</h2>
+          <h2 className="section-title">الأسئلة الشائعة</h2>
           <div style={{ marginTop: '40px' }}>
             <div style={{ marginBottom: '30px', padding: '24px', background: 'var(--bg-dark)', borderRadius: '8px' }}>
-              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '12px' }}>What should I bring to my first session?</h4>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>Bring comfortable sports clothing, athletic shoes, and water. We provide basketballs and all necessary equipment. If you have your own basketball, feel free to bring it.</p>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '12px' }}>ماذا أحضر معي إلى الجلسة الأولى؟</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>أحضر ملابس رياضية مريحة وأحذية رياضية وماء. نحن نقدم كرة السلة وكل المعدات اللازمة. إذا كانت لديك كرة سلة خاصة بك،Feel free to bring it.</p>
             </div>
             <div style={{ marginBottom: '30px', padding: '24px', background: 'var(--bg-dark)', borderRadius: '8px' }}>
-              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '12px' }}>Do I need prior basketball experience?</h4>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>No prior experience is required for our Youth Development program. We have programs designed for all skill levels, from complete beginners to advanced players.</p>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '12px' }}>هل أحتاج إلى خبرة سابقة في كرة السلة؟</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>لا، ليست هناك خبرة سابقة مطلوبة لبرنامج الناشئين. لدينا برامج مصممة forall مستويات المهارة، من المبتدئين完全 إلى اللاعبين المتقدمين.</p>
             </div>
             <div style={{ marginBottom: '30px', padding: '24px', background: 'var(--bg-dark)', borderRadius: '8px' }}>
-              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '12px' }}>Can I try a session before committing?</h4>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>Yes! We offer a FREE trial session for all new students. This allows you to experience our training methods and facility before making any commitment.</p>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '12px' }}>هل يمكنني تجربة جلسة قبل الالتزام؟</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>نعم! نحن نقدم جلسة تجريبية مجانية لجميع الطلاب الجدد. تتيح لك تجربة طرق التدريب ومرافقنا قبل إجراء أي التزام.</p>
             </div>
             <div style={{ marginBottom: '30px', padding: '24px', background: 'var(--bg-dark)', borderRadius: '8px' }}>
-              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '12px' }}>What is your cancellation policy?</h4>
-              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>You can cancel or reschedule sessions with at least 24 hours notice. For monthly programs, we offer pro-rated refunds for unused time with proper notice.</p>
+              <h4 style={{ color: 'var(--text-primary)', fontSize: '18px', marginBottom: '12px' }}>ما هي سياسة الإلغاء؟</h4>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '14px', lineHeight: '1.7' }}>يمكنك إلغاء أو إعادة جدولة الجلسات مع إشعار 24 ساعة على الأقل. للبرامج الشهرية، نقدم استردادات пропорциональ для الوقت غير المستخدم مع إشعار مناسب.</p>
             </div>
           </div>
         </div>
@@ -151,12 +151,12 @@ export default function ContactPage() {
 
       <section className="section" style={{ background: 'var(--secondary)', padding: '60px 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ fontSize: '36px', color: 'var(--text-primary)', marginBottom: '20px' }}>Visit Our Academy</h2>
+          <h2 style={{ fontSize: '36px', color: 'var(--text-primary)', marginBottom: '20px' }}>زُر مقر الأكاديمية</h2>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '30px', maxWidth: '600px', margin: '0 auto 30px' }}>
-            We welcome you for a free consultation and to learn about our training programs in person. Our location is easily accessible and clearly signposted.
+            نرحب بكم لاستشارة مجانية ومعرفة برامجنا التدريبية عن قرب. موقعنا يسهل الوصول إليه ومجهز بعلامات واضحة.
           </p>
           <a href={`https://maps.google.com/?q=${encodeURIComponent(company.address)}`} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-            View on Map
+            عرض على الخريطة
           </a>
         </div>
       </section>

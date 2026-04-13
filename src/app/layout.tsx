@@ -30,13 +30,13 @@ export default function RootLayout({
     { href: "/contact", label: "اتصل بنا" },
   ];
 
-  return (
+return (
     <html lang="ar" dir="rtl">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{companyConfig.company.name} - {companyConfig.company.tagline}</title>
-        <meta name="description" content="أفضل أكاديمية basketball في مصر. تدريب احترافي للناشئين والشباب." />
+        <meta name="description" content="أفضل أكاديمية كرة سلة في مصر. تدريب احترافي للناشئين والشباب." />
       </head>
       <body>
         <header className={`header ${scrolled ? "scrolled" : ""}`}>

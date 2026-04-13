@@ -84,7 +84,7 @@ export default function Home() {
         <div className="container">
           <h2 className="section-title">آراء أولياء الأمور</h2>
           <p className="section-subtitle">
-           听听我们运动员和家人的心声
+            اسمعوا آراء لاعبينا وعائلاتهم
           </p>
           <div className="testimonials-grid">
             {testimonials.map((testimonial) => (

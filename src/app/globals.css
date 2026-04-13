@@ -1254,3 +1254,101 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr;
   }
 }
+
+/* RTL Support */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .nav {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .hero-content {
+  text-align: right;
+}
+
+[dir="rtl"] .programs-grid,
+[dir="rtl"] .coaches-grid,
+[dir="rtl"] .testimonials-grid,
+[dir="rtl"] .gallery-grid,
+[dir="rtl"] .articles-grid,
+[dir="rtl"] .contact-grid,
+[dir="rtl"] .footer-grid {
+  direction: rtl;
+}
+
+[dir="rtl"] .program-features li,
+[dir="rtl"] .footer-links li {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .testimonial-author,
+[dir="rtl"] .contact-item,
+[dir="rtl"] .article-author-card {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .testimonial-quote {
+  padding-right: 0;
+  padding-left: 24px;
+}
+
+[dir="rtl"] .testimonial-quote::before {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .article-body ul,
+[dir="rtl"] .article-body ol {
+  padding-right: 0;
+  padding-left: 24px;
+}
+
+[dir="rtl"] .hero::after {
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+[dir="rtl"] .article-hero-overlay {
+  text-align: right;
+}
+
+[dir="rtl"] .contact-form {
+  text-align: right;
+}
+
+[dir="rtl"] .form-group input,
+[dir="rtl"] .form-group textarea {
+  text-align: right;
+}
+
+[dir="rtl"] .mobile-menu-btn {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+[dir="rtl"] .article-category {
+  right: auto;
+  left: 16px;
+}
+
+[dir="rtl"] .article-body h2 {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+[dir="rtl"] .article-body h2::before {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .article-body ul li {
+  padding-right: 0;
+  padding-left: 12px;
+}
+
+[dir="rtl"] .article-body ul li::before {
+  right: auto;
+  left: -20px;
+}
