@@ -19,9 +19,11 @@ A fully functional basketball academy website with configurable company data and
   - Contact form with validation
   - Responsive design (mobile/tablet/desktop)
 - [x] Custom design system with:
-  - Color palette: Primary #E63946, Secondary #1D3557, Accent #F4A261
-  - Typography: Bebas Neue (headings), Barlow (body)
+  - Color palette: Primary #C9261D, Secondary #1A1A2E, Accent #F4A024
+  - Typography: Tajawal (Arabic/English support)
   - Smooth animations and hover effects
+- [x] RTL optimization for Arabic localization
+- [x] Enhanced mobile responsive design (breakpoints: 1200px, 1024px, 768px, 480px)
 - [x] All typecheck and build passes
 
 ## Current Structure
@@ -72,3 +74,5 @@ bun run lint
 | Date | Changes |
 |------|---------|
 | Initial | Basketball academy website built with configurable domain and company data |
+| Recent | RTL optimization & Arabic localization |
+| Recent | Enhanced mobile responsive design with 4 breakpoints |
