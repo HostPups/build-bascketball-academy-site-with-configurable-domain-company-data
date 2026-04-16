@@ -6,6 +6,9 @@ export default function Home() {
   return (
     <>
       <section className="hero">
+        <div className="hero-image">
+          <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1200&q=80" alt="Basketball Training" />
+        </div>
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
