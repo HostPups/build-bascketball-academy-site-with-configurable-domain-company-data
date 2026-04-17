@@ -1,4 +1,5 @@
 import { companyConfig } from "@/config/company";
+import Link from "next/link";
 
 export default function Home() {
   const { company, programs, coaches, testimonials, gallery } = companyConfig;
@@ -15,7 +16,7 @@ export default function Home() {
               تدرب كال<span>البطل</span>
             </h1>
             <p className="hero-subtitle">
-              {company.tagline} - انضم لأفضل أكاديمية basketball في مصر وحقق أقصى إمكاناتك مع مدربين دوليين.
+              {company.tagline} - انضم لأفضل أكاديمية basketball في مصر وحقق أقصى إمكاناتك مع مدربين دوليين ذوي خبرة واسعة في تطوير اللاعبين المحترفين.
             </p>
             <div className="hero-buttons">
               <a href="/programs" className="btn btn-primary">
@@ -24,6 +25,54 @@ export default function Home() {
               <a href="/contact" className="btn btn-secondary">
                 تواصل معنا
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section stats-section">
+        <div className="container">
+          <div className="stats-grid">
+            <div className="stat-item">
+              <div className="stat-number">500+</div>
+              <div className="stat-label">لاعب تدربوا معنا</div>
+            </div>
+            <div className="stat-item">
+              <div className="stat-number">15+</div>
+              <div className="stat-label">سنة خبرة</div>
+            </div>
+            <div className="stat-item">
+              <div className="stat-number">50+</div>
+              <div className="stat-label">مدرب محترف</div>
+            </div>
+            <div className="stat-item">
+              <div className="stat-number">100%</div>
+              <div className="stat-label">رضا أولياء الأمور</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section about-section">
+        <div className="container">
+          <div className="about-grid">
+            <div className="about-content">
+              <h2 className="section-title" style={{ textAlign: 'right', marginBottom: '24px' }}>عن الأكاديمية</h2>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '17px', lineHeight: '1.9', marginBottom: '20px' }}>
+                أكاديمية القاهرة هي Institution رائدة في مجال تدريب كرة السلة في مصر والشرق الأوسط. تأسست منذ أكثر من 15 عاماً بهدف تطوير جيل جديد من اللاعبين المحترفين وتوصيلهم إلى أعلى المستويات الرياضية.
+              </p>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '17px', lineHeight: '1.9', marginBottom: '20px' }}>
+                نفخر في أكاديمية القاهرة بتوفير بيئة تدريبية احترافية وآمنة dla всех选手們. يتميز منهجنا الفريد by الجمع بين أحدث التقنيات العالمية والخبرة المحلية، مما يضمن تطوراً سريعاً وملموساً لكل لاعب ينضم إلى Familie الخاصتنا.
+              </p>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '17px', lineHeight: '1.9', marginBottom: '24px' }}>
+                يختار آلاف الأسر المصرية أكاديمية القاهرة como الخيار الأول لأولادهم بسبب komitmenنا الثابت للجودة والتميز في كل تفصيل من تفاصيل التدريب. من خلال برامجنا المتخصصة ومتابعتنا المستمرة، نساعد اللاعبين على تحقيق أحلامهم في عالم كرة السلة المحترفة.
+              </p>
+              <Link href="/about" className="btn btn-secondary" style={{ display: 'inline-block' }}>
+                اعرف المزيد عنا
+              </Link>
+            </div>
+            <div className="about-image">
+              <img src="https://images.unsplash.com/photo-1519861531473-9200262188bf?w=600&q=80" alt="About Academy" style={{ width: '100%', borderRadius: '8px' }} />
             </div>
           </div>
         </div>
@@ -83,6 +132,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section features-section">
+        <div className="container">
+          <h2 className="section-title">لماذا تختار أكاديمية القاهرة؟</h2>
+          <p className="section-subtitle">
+            نوفر لك كل ما تحتاجه لتحقيق أحلامك في عالم كرة السلة المحترفة
+          </p>
+          <div className="features-grid">
+            <div className="feature-card">
+              <div className="feature-icon">🏀</div>
+              <h3>مدربون دوليون</h3>
+              <p>يتضمن فريقنا مدربين محترفين من الدوري الأمريكي NBA والدوري الأوروبي، حاصلين على شهادات معتمدة من الاتحاد الدولي للسلة.</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">📊</div>
+              <h3>منهج حديث</h3>
+              <p>نستخدم أحدث طرق التدريب والمعايير العالمية في تعليم كرة السلة. منهجنا يعتمد على التكنولوجيا والتحليل البياناتي الحديث.</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">🏟️</div>
+              <h3>مرافق متطورة</h3>
+              <p>ملاعب حديثة مجهزة بأحدث التقنيات. سطح parquet عالي الجودة وإضاءة احترافية تضمن أفضل تجربة تدريبية.</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">🎯</div>
+              <h3>نتائج مضمونة</h3>
+              <p>نظام تتبع فردي للتقدم. تقييمات منتظمة وملاحظات مستمرة لمساعدة كل لاعب على التحسن بشكل ملحوظ وسريع.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section testimonials">
         <div className="container">
           <h2 className="section-title">آراء أولياء الأمور</h2>
@@ -112,7 +192,7 @@ export default function Home() {
         <div className="container">
           <h2 className="section-title">معرض الصور</h2>
           <p className="section-subtitle">
-            شاهد ما ينتظرك في {company.name}
+            شاهد ما ينتظرك في {company.name} - لحظات من التدريب والمباريات والبطولات
           </p>
           <div className="gallery-grid">
             {gallery.map((image, index) => (
@@ -120,6 +200,38 @@ export default function Home() {
                 <img src={image} alt={`Gallery ${index + 1}`} />
               </div>
             ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '40px' }}>
+            <Link href="/gallery" className="btn btn-secondary">
+              شاهد المزيد من الصور
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section faq-section">
+        <div className="container">
+          <h2 className="section-title">الأسئلة الشائعة</h2>
+          <p className="section-subtitle">
+            إجابات على أكثر الأسئلة شيوعاً من أولياء الأمور واللاعبين
+          </p>
+          <div className="faq-grid">
+            <div className="faq-item">
+              <h3>ما هو عمر التسجيل المناسب؟</h3>
+              <p>نقبل التسجيل من سن 6 سنوات وحتى 18 سنة. لدينا برامج متخصصة لكل فئة عمرية تناسب مستوى كل لاعب.</p>
+            </div>
+            <div className="faq-item">
+              <h3>هل يلزم وجود خبرة سابقة؟</h3>
+              <p>لا، برامجنا مصممة لتناسب جميع المستويات من المبتدئين حتى المحترفين. مدربونا مؤهلون للتعامل مع كل المستويات.</p>
+            </div>
+            <div className="faq-item">
+              <h3>ما هي مواعيد التدريب؟</h3>
+              <p>نوفر مرونة كبيرة في المواعيد. توجد تدريبات صباحية ومسائية طوال الأسبوع بما في عطلات نهاية الأسبوع.</p>
+            </div>
+            <div className="faq-item">
+              <h3>هل يمكن تجربة مجانية؟</h3>
+              <p>نعم، نوفر حصة تجريبية مجانية للجميع. احجز تجربتك الأولى الآن واكتشف بنفسك جودة تدريبنا.</p>
+            </div>
           </div>
         </div>
       </section>
